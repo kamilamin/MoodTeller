@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <header id="main">
+                <h1>Mood Teller</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section id="main">
+                    <article>
+                        <h2>Mood Teller</h2>
+                        <p>Please type in your name and current mood</p>
+                        <form action="#" id="moodForm">
+                            <label>Name: </label>
+                            <input type="text" id="name" placeholder="Enter your name...">
+                            <br> <br>
+                            <label for="">Mood:</label>
+                            <input type="text" id="mood" placeholder="Enter your mood....">
+                            <br><br>
+                            <button onclick="showMood()">Tell me</button>
+                            <button onclick="clearMood()">Clear Mood</button>
+                        </form>
+                        <div id="holder">
+                            
+                        </div>
+                    </article>
+                </section>
+                <aside>
+                    <h3>SideBar</h3>
+                    <p>Donec varius ullamcorper dictum. Proin consectetur sapien orci, in bibendum nunc sagittis vitae. Cras sit amet ex libero. Suspendisse ut lacus sodales, molestie ante in, rutrum felis. Morbi at volutpat nisl, a commodo ligula. Sed eleifend, ligula ut facilisis cursus, ante odio ultricies elit, id interdum nibh odio eu nulla. Nulla elementum feugiat finibus.</p>
+                </aside>
+            </main>
+            <div class="clearfix"></div>
+                <footer>
+                    <p>Copyright &copy; 2014 My HTML 5 webside</p>
+                </footer>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
